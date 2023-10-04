@@ -46,14 +46,14 @@ namespace Sales.Repositories
                             {idBrand:8,idProduct:4,brandName:'Ford' },
                             {idBrand:9,idProduct:5,brandName:'Scania' },
                             {idBrand:10,idProduct:5,brandName:'Volvo' },
-                            {idBrand:10,idProduct:6,brandName:'Vespa' },
-                            {idBrand:10,idProduct:6,brandName:'Adiva' },
-                            {idBrand:10,idProduct:7,brandName:'Logitech' },
-                            {idBrand:10,idProduct:7,brandName:'Razer' },
-                            {idBrand:10,idProduct:8,brandName:'Microsoft' },
-                            {idBrand:10,idProduct:8,brandName:'SteelSeries' },
-                            {idBrand:10,idProduct:9,brandName:'Bose' },
-                            {idBrand:10,idProduct:9,brandName:'Senheiser' },]";
+                            {idBrand:11,idProduct:6,brandName:'Vespa' },
+                            {idBrand:12,idProduct:6,brandName:'Adiva' },
+                            {idBrand:13,idProduct:7,brandName:'Logitech' },
+                            {idBrand:14,idProduct:7,brandName:'Razer' },
+                            {idBrand:15,idProduct:8,brandName:'Microsoft' },
+                            {idBrand:16,idProduct:8,brandName:'SteelSeries' },
+                            {idBrand:17,idProduct:9,brandName:'Bose' },
+                            {idBrand:18,idProduct:9,brandName:'Senheiser' },]";
 
             List<Brand> listBrand = JsonConvert.DeserializeObject<List<Brand>>(json);
             return listBrand;

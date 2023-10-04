@@ -262,6 +262,33 @@ svg#clouds {
     width: 1920px;
 }
 
+.status-bullet {
+    background-color: red;
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.filters {
+    background-color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 10px 10px 10px;
+    align-items: baseline;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.label-container {
+    display: flex;
+}
+
+.label {
+    margin: 10px;
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
 
